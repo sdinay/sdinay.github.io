@@ -161,7 +161,7 @@ p {
 /* Jumbotron */
 .jumbotron {
 	background-color: #222222;
-	background-image: url("jelly-two.jpeg");
+	background-image: url("images/jelly-two.jpeg");
 	background-repeat: no-repeat;
 	background-position: center center;
 	-webkit-background-size: cover;
