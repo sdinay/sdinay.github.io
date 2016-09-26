@@ -1,30 +1,270 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>Hank Quinlan, Horrible Cop</title>
-		<!-- link to main stylesheet -->
-		<link rel="stylesheet" type="text/css" href="/css/main.css">
-	</head>
-	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-	        	<li><a href="/about">About</a></li>
-        		<li><a href="/cv">CV</a></li>
-        		<li><a href="/blog">Blog</a></li>
-    		</ul>
-		</nav>
+<html lang="en">
+<head>
+	<title>Crux</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Bootstrap Style Sheet -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- Bootstrap JS Sheet-->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Google Fonts -->
+    <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <!-- sdinay Custom CSS -->
+    <link href="crux.css" rel="stylesheet">
+	<!-- sdinay Custom JS -->
+	<script src="js/crux.js"></script>
+
+</head>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+	<!-- Navbar -->
+	<nav class="navbar navbar-inverse navbar-fixed-top">
 		<div class="container">
-    		<div class="blurb">
-        		<h1>Hi there, I'm Hank Quinlan!</h1>
-				<p>I'm best known as the horrible cop from <em>A Touch of Evil</em> Don't trust me. <a href="/about">Read more about my life...</a></p>
-    		</div><!-- /.blurb -->
-		</div><!-- /.container -->
-		<footer>
-    		<ul>
-        		<li><a href="mailto:hankquinlanhub@gmail.com">email</a></li>
-        		<li><a href="https://github.com/hankquinlan">github.com/hankquinlan</a></li>
-			</ul>
-		</footer>
-	</body>
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span> 
+				</button>
+				<a class="navbar-brand" href="#myPage">
+					<img src="images/mountain-logo.png" class="navbar-brand-logo">
+					CRUX
+				</a>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#about">About</a></li>
+					<li><a href="#experiences">Experiences</a></li>
+					<li><a href="#events">Events</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<!-- Jumbotron Container -->
+	<div class="jumbotron text-center">
+		<h1>CRUX</h1>
+		<hr class="small">
+		<p class="sub-header">music, radio, sweet potato fries</p>
+	</div>
+
+	<!-- Jumbotron Subheader -->
+	<div class="jumbotron-subheader container text-center">
+		<p>
+			my adventures on the radio, through festivals, and indulging in sweet potato fries
+		</p>
+	</div>
+
+	<!-- About Container -->
+	<div id="about" class="container container-custom">
+		<div class="row">
+			<div class="col-sm-12 text-center">
+				<h2>Coding, music, mountains.</h2>
+				<p>
+					Junior Web Developer for the Financial Affairs Department at UCSC, RPM Director and Radio Programmer for KZSC, Santa Cruz 88.1 FM, third year Computer Science student at the University of California, Santa Cruz, and two decades of rock climbing and outdoor adventure experience.
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- Image Container -->
+	<div class="container-fluid">
+		<div class="row ssd-image-row" style="background-image: url('images/natural-bridges.jpg')"> </div>
+	</div>
+    <!-- /.container -->
+
+    <!-- Blog Overview Container -->
+	<div id="experiences" class="container-fluid container-custom-lg">
+		<div class="row">
+			<div class="col-sm-4 col-md-4 col-xs-12 col-sm-push-4 col-md-push-4 text-center experiences-div">
+				<h2>Experiences</h2>
+				<h4>Follow me as the RPM Music Director for UCSC's college radio station or read my reviews about my favorite appetizer dish, sweet potato fries</h4>
+			</div>
+			<div class="col-sm-4 col-md-4 col-xs-6 col-sm-pull-4 col-md-pull-4 text-center experiences-logo">
+				<img class="img-responsive center-block" src="images/logo-music.png" alt="">
+				<br>
+				<a href="music.html" role="button" class="btn btn-default">Explore</a>
+			</div>
+			<div class="col-md-4 col-sm-4 col-xs-6 text-center experiences-logo">
+				<img class="img-responsive center-block" src="images/logo-fries.png" alt="">
+				<br>
+				<a href="spf.html" role="button" class="btn btn-default">Indulge</a>
+			</div>
+		</div>
+	</div>
+
+	<!-- Events Container -->
+	<div id="events" class="container-fluid text-center container-custom-lg">
+		<h2>Events</h2>
+		<h4>nothing beats the adventure music can take you on</h4>
+
+		<div class="row text-center">
+			<div class="col-sm-4 thumbnail-column">
+				<div class="thumbnail img-responsive" style="background-image:url('images/the-catalyst-candyland.jpg')">
+					<p>
+						<strong>Candyland @ The Catalyst</strong><br>
+						April 8, 2016
+					</p>
+				</div>
+			</div>
+			<div class="col-sm-4 thumbnail-column">
+				<div class="thumbnail img-responsive" style="background-image:url('images/lightning-in-a-bottle-one.jpg')">
+					<p>
+						<strong>Lightning in a Bottle @ Bradely, CA</strong><br>
+						May 26 - May 29, 2016
+					</p>
+				</div>
+			</div>
+			<div class="col-sm-4 thumbnail-column">
+				<div class="thumbnail img-responsive" style="background-image:url('images/the-catalyst-flatbush-zombies.jpg')">
+					<p>
+						<strong>Flatbush Zombies @ The Catalyst</strong><br>
+						April 25, 2016
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="row text-center">
+			<div class="col-sm-4 thumbnail-column">
+				<div class="thumbnail img-responsive" style="background-image:url('images/wobbleland-2016.jpg')">
+					<p>
+						<strong>Wobbleland @ City National Civic</strong><br>
+						February 26 - 27, 2016
+					</p>
+				</div>
+			</div>
+			<div class="col-sm-4 thumbnail-column">
+				<div class="thumbnail img-responsive" style="background-image:url('images/the-catalyst-snoop-dogg.jpg')">
+					<p>
+						<strong>Snoop Dogg @ The Catalyst Club</strong><br>
+						February 5, 2016
+					</p>
+				</div>
+			</div>
+			<div class="col-sm-4 thumbnail-column">
+				<div class="thumbnail img-responsive" style="background-image:url('images/wobbleland-2015.jpg')">
+					<p style="top:0">
+						<strong>Wobbleland @ City National Civic</strong><br>
+						Feb 28 - March 1, 2016
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Carousel Container -->
+	<div class="container-fluid ssd-carousel">
+		<h2 class="text-center">Catch Us At The Next Event</h2>
+		<div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+			<!-- Indicators -->
+			<ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
+				<li data-target="#myCarousel" data-slide-to="2"></li>
+			</ol>
+			<!-- Wrapper for slides -->
+			<div class="carousel-inner" role="listbox">
+				<div class="item active">
+					<h4>
+						<strong>Enchanted Forest Gathering</strong><br>
+						<span style="font-style:normal;">July 22<sup>nd</sup> through July 24<sup>th</sup> in Laytonville, California</span><br>
+						<a href="http://www.enchantedforestmendo.com" role="button" class="btn btn-carousel" target="_blank">More Info</a>
+					</h4>
+				</div>
+				<div class="item">
+					<h4>
+						<strong>HARD Summer 2016</strong><br>
+						<span style="font-style:normal;">July 30<sup>th</sup> and July 31<sup>st</sup> at the Auto Club Speedway in Southern California</span><br>
+						<a href="http://www.hardsummer.com" role="button" class="btn btn-carousel" target="_blank">More Info</a>
+					</h4>
+				</div>
+				<div class="item">
+					<h4>
+						<strong>Flume</strong>
+						<br><span style="font-style:normal;">September 24<sup>th</sup> at the Bill Graham Civic Auditorium in San Francisco, California</span><br>
+						<a href="http://www.flume.com" role="button" class="btn btn-carousel" target="_blank">More Info</a>
+					</h4>
+				</div>
+			</div>
+			<!-- Controls -->
+			<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
+	</div>
+
+	<!-- Contact Container -->
+	<div id="contact" class="container-fluid bg-white ssd-contact">
+		<h2 class="text-center">CONTACT</h2>
+		<div class="row">
+			<div class="col-sm-5">
+				<p>Contact Crux for music, interview, or sweet potato fries questions</p>
+				<p><span class="glyphicon glyphicon-map-marker logo"></span> Los Angeles and Santa Cruz, CA</p>
+				<p><span class="glyphicon glyphicon-phone logo"></span> email for phone</p>
+				<p><span class="glyphicon glyphicon-envelope logo"></span> crux@shaneedinay.com</p> 
+			</div>
+			<div class="col-sm-7">
+				<div class="row">
+					<div class="col-sm-6 form-group">
+						<input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+					</div>
+					<div class="col-sm-6 form-group">
+						<input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+					</div>
+				</div>
+				<textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+				<div class="row">
+					<div class="col-sm-12 form-group">
+						<button class="btn btn-default pull-right" type="submit">Send</button>
+					</div>
+				</div> 
+			</div>
+		</div>
+	</div>
+
+	<!-- Footer -->
+    <footer class="ssd-footer text-center">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-md-4 col-sm-4  col-xs-12 col-sm-push-4 col-md-push-4">
+					<a href="#myPage" title="Top">
+						<span class="glyphicon glyphicon-chevron-up" alt="TOP"></span>
+					</a>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 col-sm-pull-4 col-md-pull-4">
+					<p class="ssd-footer-copyright">
+						&copy; Shanee Dinay 2016
+					</p>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+					<p class="ssd-footer-social">
+						<a href="https://www.facebook.com/shaneedinay" target="_blank">
+							<img src="images/social-facebook.png">
+						</a>
+						<a href="https://www.instagram.com/naynay99/" target="_blank">
+							<img src="images/social-instagram.png">
+						</a>
+						<a href="https://soundcloud.com/shaneedinay" target="_blank">
+							<img src="images/social-soundcloud.png">
+						</a>
+					</p>
+				</div>
+			</div>
+			<!-- /.row -->
+		</div>
+    </footer>
+    <!-- /.container -->
+
+</body>
 </html>
