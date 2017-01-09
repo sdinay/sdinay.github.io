@@ -509,6 +509,7 @@ header .header-content-main {
     position: fixed;
     left: calc(50% - 282px);
     top: calc(50% - 76.667px);
+    z-index: 1;
 }
 #pcm-c {
     -webkit-box-sizing: content-box;
