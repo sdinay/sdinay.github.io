@@ -22,7 +22,6 @@
   <!-- Plugin CSS -->
   <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.css">
-  <link rel="stylesheet" href="vendor/device-mockups/device-mockups.min.css">
 
   <!-- Theme CSS -->
   <link href="css/crux.css" rel="stylesheet">
@@ -30,22 +29,47 @@
   <!-- jQuery -->
   <script src="js/jquery.min.js"></script>
 
+  <style>
+    .c_square {
+      background-color: black;
+      color: white;
+    }
+  </style>
 </head>
 
 <body>
 
-  <section>
-    <div class="container" style="height:400px">
-      <img src="kzsctxt.png" alt="Mountain View" style="width:304px;height:228px;">
-    </div>
-  </section>
-
-  <footer>
-      <div class="container">
-          <a href="#page-top" class="totop page-scroll"><i class="fa fa-play" aria-hidden="true"></i></a>
-          <p>LIVE STREAM</p>
-          <p>KZSC Radio</p>
+  <div class="container" style="height:400px;margin-top:30px;">
+    <div class="row">
+      <div class="col-sm-12 col-md-3 col-lg-3 text-center">
+        <img src="kzsctxt.png" alt="KZSC" style="width:233px;height:98px;">
       </div>
+      <div class="col-sm-12 col-md-9 col-lg-9 text-center">
+        <p class="c_square" style="font-size:50px;height:85px">HIGHLIGHTS</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12 col-md-3 col-lg-3 text-center">
+        <p class="c_square" style="font-size:50px;height:200px">LEFT<br>BAR</p>
+      </div>
+      <div class="col-sm-12 col-md-9 col-lg-9 text-center">
+        <p class="c_square" style="font-size:50px;height:600px">BLOG POSTINGS</p>
+      </div>
+    </div>
+  </div>
+
+  <footer style="padding:15px 0;background-color:rgba(34, 34, 34, 0.85)">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+          <i class="fa fa-play" aria-hidden="true"></i>
+          LIVE STREAM
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+          KZSC Radio
+        </div>
+      </div>
+    </div>
   </footer>
 
   <!-- jQuery -->
