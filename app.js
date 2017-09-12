@@ -112,6 +112,7 @@
     if(firebaseUser) {
       console.log(firebaseUser);
       btnLogout.classList.remove('hide');
+      window.location.replace("/firebaseauthhome.html");
     } else {
       console.log('not logged in');
       btnLogout.classList.add('hide');
