@@ -148,7 +148,8 @@ p {
     color: #3bb0c9; /* ssd changed 1/3/2017 */
   }
 }
-header {
+/*header {*/
+.crux-header {
   position: relative;
   width: 100%;
   min-height: auto;
@@ -161,33 +162,40 @@ header {
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: white;
 }
-header .header-content {
+/*header .header-content {*/
+.crux-header .header-content {
   text-align: center;
   padding: 150px 0 50px;
   position: relative;
 }
-header .header-content .header-content-inner {
+/*header .header-content .header-content-inner {*/
+.crux-header .header-content .header-content-inner {
   position: relative;
   max-width: 500px;
   margin: 0 auto;
 }
-header .header-content .header-content-inner h1 {
+/*header .header-content .header-content-inner h1 {*/
+.crux-header .header-content .header-content-inner h1 {
   margin-top: 0;
   margin-bottom: 30px;
   font-size: 30px;
 }
-header .header-content .header-content-inner .list-badges {
+/*header .header-content .header-content-inner .list-badges {*/
+.crux-header .header-content .header-content-inner .list-badges {
   margin-bottom: 25px;
 }
-header .header-content .header-content-inner .list-badges img {
+/*header .header-content .header-content-inner .list-badges img {*/
+.crux-header .header-content .header-content-inner .list-badges img {
   height: 50px;
   margin-bottom: 25px;
 }
-header .device-container {
+/*header .device-container {*/
+.crux-header .device-container {
   max-width: 300px;
   margin: 0 auto 100px;
 }
-header .device-container .screen img {
+/*header .device-container .screen img {*/
+.crux-header .device-container .screen img {
   border-radius: 3px;
 }
 @media (min-width: 768px) {
@@ -262,7 +270,7 @@ section.about .badges .badge-link img {
 }
 @media (max-width : 320px) {/* added */
   section.about h2 {
-    font-size: 38px; 
+    font-size: 38px;
   }
 }
 section.projects .section-heading {
@@ -278,7 +286,7 @@ section.projects .section-heading h2 {
 }
 @media (max-width : 320px) {/* added */
   section.projects h2 {
-    font-size: 20px; 
+    font-size: 20px;
   }
 }
 section.projects .section-heading p {
