@@ -112,11 +112,13 @@
     if(firebaseUser) {
       console.log(firebaseUser);
       btnLogout.classList.remove('hide');
-      window.location.replace("/firebaseauthhome.html");
+      document.getElementById('auth').classList.add('hide');
+      document.getElementById('home').classList.remove('hide');
     } else {
       console.log('not logged in');
       btnLogout.classList.add('hide');
-      window.location.replace("/firebaseauth.html");
+      document.getElementById('auth').classList.remove('hide');
+      document.getElementById('home').classList.add('hide');
     }
   });
 
