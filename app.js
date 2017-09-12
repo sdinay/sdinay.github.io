@@ -116,6 +116,7 @@
     } else {
       console.log('not logged in');
       btnLogout.classList.add('hide');
+      window.location.replace("/firebaseauth.html");
     }
   });
 
