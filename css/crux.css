@@ -536,3 +536,29 @@ form .lsb {
     color: black;
     font-weight: bold;
 }
+
+/* kzsctemplates */
+@media screen and (max-width: 767px) {
+  .kzsctemplates .button-container {
+    margin-bottom: 20px;
+  }
+}
+.kzsctemplates {
+  background-color: #eee;
+}
+
+.kzsctemplates h1 {
+  padding: 20px;
+}
+
+.button-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.button-link:active,
+.button-link:hover,
+.button-link:visited {
+  color: #b4b9bd;
+  text-decoration: none;
+}
