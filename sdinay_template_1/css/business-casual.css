@@ -101,7 +101,7 @@ body {
   color: #fff;
   padding: 10px 40px;
   text-align: center;
-  height: 45px;
+  height: 55px;
 }
 .music-player {
   font-size: 25px;
@@ -111,7 +111,9 @@ body {
   padding-right: .4rem!important;
 }
 footer {
-  margin-bottom: -45px;
+  margin-bottom: -55px;
+  padding-bottom: 4rem!important;
+  padding-top: 3rem!important;
 }
 @media screen and (max-width: 900px) {
   .header-title {
