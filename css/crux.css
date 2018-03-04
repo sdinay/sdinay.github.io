@@ -254,6 +254,9 @@ a:focus {
   .navbar-default .navbar-header .navbar-brand {
     color: #ffffff;
   }
+  .navbar-default .navbar-brand-desc {
+    color: #dddddd;
+  }
   .navbar-default .navbar-header .navbar-brand:hover,
   .navbar-default .navbar-header .navbar-brand:focus {
     color: white;
