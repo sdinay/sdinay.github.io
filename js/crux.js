@@ -5,7 +5,7 @@
     $('a.page-scroll').bind('click', function(event) {
         var $anchor = $(this);
         $('html, body').stop().animate({
-            scrollTop: ($($anchor.attr('href')).offset().top - 50)
+            scrollTop: ($($anchor.attr('href')).offset().top - 70)
         }, 1250, 'easeInOutExpo');
         event.preventDefault();
     });
@@ -24,27 +24,8 @@
     // Offset for Main Navigation
     $('#mainNav').affix({
         offset: {
-            top: 50
+            top: 70
         }
     })
 
-})(jQuery); // End of use strict
-$(document).ready( function() {
-    $("#gameButton").on("click", function() {
-        //alert("hello");
-        var gameDiv = document.getElementById("crux-popup-game");
-        if(gameDiv.style.display == "none") {
-            gameDiv.style.display = "block";
-        } else {
-            gameDiv.style.display = "none";
-        }
-    });
-    $("#pc-close-div").on("click", function () {
-        var gameDiv = document.getElementById("crux-popup-game");
-        if(gameDiv.style.display == "none") {
-            gameDiv.style.display = "block";
-        } else {
-            gameDiv.style.display = "none";
-        }
-    });
-});
+})(jQuery);
