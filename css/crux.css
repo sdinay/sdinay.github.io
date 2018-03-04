@@ -135,6 +135,8 @@ a, a:hover, a:active {
 }
 @media (max-width: 465px) {
   .card-s .card-description {
+    top: 3em;
+    bottom: 3em;
     right: 1em;
     left: 1em;
     height: calc(100% - 2em);
@@ -187,7 +189,6 @@ a:focus {
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
-  /* color: #fdcc52; */
   color: #000000; /* ssd changed */
   height: 75px;
   padding: 30px 15px 30px 30px;
@@ -196,7 +197,7 @@ a:focus {
 .navbar-default .navbar-brand-desc {
   padding: 30px 0px;
   display: inline-block;
-  color: rgba(255, 255, 255, 0.9);
+  color: #000000;
   float: left;
   line-height: 20px
 }
