@@ -1,4 +1,4 @@
-Personal website that displays my work and resume
+Simple page to display my portfolio and resume
 
 Link:
 sdinay.github.io
