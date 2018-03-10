@@ -26,6 +26,31 @@
         offset: {
             top: 70
         }
-    })
+    });
+
+    $(window).on('scroll', function() {
+      $("#projects .row .card-s").each(function() {
+        if (isScrolledIntoView($(this))) {
+          $(this).addClass("card-description-reveal");
+        } else {
+          $(this).removeClass("card-description-reveal");
+        }
+      });
+    });
+
+    function isScrolledIntoView(elem) {
+      var docViewTop = $(window).scrollTop();
+      var docViewBottom = docViewTop + $(window).height();
+
+      var docMidpoint = (docViewBottom + docViewTop) / 2;
+
+      var newTop = docMidpoint - $(elem).height();
+      var newBottom = docMidpoint + $(elem).height();
+
+      var elemTop = $(elem).offset().top;
+      var elemBottom = elemTop + $(elem).height();
+      
+      return ((elemBottom <= newBottom) && (elemTop >= newTop));
+    }
 
 })(jQuery);

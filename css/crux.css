@@ -36,12 +36,6 @@ a, a:hover, a:active {
 .card-s {
   margin-bottom: 30px
 }
-.card-s:hover .card-img {
-  opacity: .15;
-}
-.card-s:hover .card-description {
-  opacity: 1;
-}
 .card-s .card-img {
   opacity: 1;
   transition: .5ms;
@@ -69,9 +63,27 @@ a, a:hover, a:active {
   vertical-align: top;
   font-size: 12px;
 }
+.card-s:hover .card-img {
+  opacity: .15;
+}
+.card-s:hover .card-description {
+  opacity: 1;
+}
 .card-s .card-description a:hover h3,
 .card-s .card-description a:hover i {
   color: #444444;
+}
+@media (max-width: 767px) {
+  .card-s.card-description-reveal .card-img {
+    opacity: .15;
+  }
+  .card-s.card-description-reveal .card-description {
+    opacity: 1;
+  }
+  .card-s.card-description-reveal .card-description a h3,
+  .card-s.card-description-reveal .card-description a i {
+    color: #444444;
+  }
 }
 .card-s .card-description p {
 
