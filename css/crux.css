@@ -2,6 +2,14 @@
  * Crux CSS, v1.0.0 (http://startbootstrap.com/template-overviews/new-age)
  */
 
+/* Bootstrap Override BEGIN */
+@media (min-width: 768px) {
+  #mainNav .container {
+      width: 770px;
+  }
+}
+/* Bootstrap Override END */
+
 /* General Styles */
 a, a:hover, a:active {
   text-decoration: none
